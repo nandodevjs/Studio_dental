@@ -1,5 +1,41 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-  }
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Navbar */
+#navbar {
+  height: 111px;
+  background-color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  margin-left: 35px;
+}
+
+#navbar_menu a {
+  font-size: 14px;
+  padding: 0 15px;
+  color: #424242;
+}
+
+#navbar_menu a:hover {
+
+  border-radius: 1px;
+  border-bottom: 2px solid #424242;
+}
+
+#but_cliente {
+  margin-right: 35px;
+} 
+
+#banner {
+  width: 100%;
+}
+/* Fim Navbar */
