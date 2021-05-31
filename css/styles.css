@@ -51,3 +51,7 @@
   width: 587px;
   height: 337px;
 }
+
+.underline {
+  text-decoration: underline #D5906B 5px;
+}
